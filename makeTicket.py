@@ -1,5 +1,5 @@
 from processData import GetPersonalData
-# from makeQR import GetQR
+from makeQR import GetQR
 from PIL import Image, ImageDraw, ImageFont
 import pandas
 
@@ -7,6 +7,11 @@ class makeTicket():
     def __init__(self) -> None:
         self.personalData = GetPersonalData('visitorList.xlsx')
         self.data = self.personalData.GetCode()
+        self.qr = GetQR()
+        for i in range(self.qr.data.shape[1]):
+            num_four = str(i+1).zfill(4)
+            self.qr.makeQR(num_four)
+
         return
     def makeImage(self, num):
         self.bg = Image.open('template.jpg')
@@ -27,8 +32,16 @@ class makeTicket():
         self.draw.text(self.GatePos, code[0], fill = (0,0,0), font = self.font)
         self.draw.text(self.NumPos, code[1:5], fill = (0,0,0), font = self.font)
 
-        self.bg.save(f'savedImg/{num}.png')
+        self.qr = Image.open(f'qrcodes/{code[1:5]}.jpg')
+        self.qr = self.qr.resize((230, 230)) 
+        
+        self.bg.paste(self.qr, (450, 670), self.qr)
+        
 
+
+
+        self.bg.save(f'savedImg/{num}.png')
+        
 #fortest
 a = makeTicket()
 
