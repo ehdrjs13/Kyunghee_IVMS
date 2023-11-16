@@ -16,5 +16,3 @@ class GetQR():
         img.save(f"qrcodes/{num}.jpg")
 
 
-a = GetQR()
-
