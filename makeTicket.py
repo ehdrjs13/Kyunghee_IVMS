@@ -22,6 +22,7 @@ class makeTicket():
         self.SchoolPos = (540,445)
         self.NumPos = (540,580)
         self.GatePos = (540,210)
+        self.CodePos = (570,680)
 
         name = self.data[num][0]
         school = self.data[num][1]
@@ -31,11 +32,15 @@ class makeTicket():
         self.draw.text(self.SchoolPos, school, fill = (0,0,0), font = self.font)
         self.draw.text(self.GatePos, code[0], fill = (0,0,0), font = self.font)
         self.draw.text(self.NumPos, code[1:5], fill = (0,0,0), font = self.font)
+        
+
 
         self.qr = Image.open(f'qrcodes/{code[1:5]}.jpg')
         self.qr = self.qr.resize((230, 230)) 
         
         self.bg.paste(self.qr, (450, 670), self.qr)
+
+        self.draw.text(self.CodePos, code, fill = (0,0,0),font= ImageFont.truetype('AppleSDGothicNeoB.ttf', size = 15))
         
 
 
