@@ -67,11 +67,6 @@ class GetPersonalData():
         return pd.DataFrame(self.personalData)
 
         
-            
 
-
-a = GetPersonalData('visitorList.xlsx')
-
-print(a.GetCode())
 
 
