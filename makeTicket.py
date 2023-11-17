@@ -47,14 +47,5 @@ class makeTicket():
 
         self.bg.save(f'savedImg/{num}.png')
         
-#fortest
-a = makeTicket()
-
-
-
-for i in range(a.qr.data.shape[1]):
-    num_four = str(i+1).zfill(4)
-    a.makeImage(num_four)
-
 
 
