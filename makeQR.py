@@ -1,5 +1,5 @@
 from processData import GetPersonalData
-# from makeQR import GetQR
+
 import qrcode
 
 class GetQR():
