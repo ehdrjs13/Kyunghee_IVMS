@@ -33,6 +33,8 @@ class GetPersonalData():
             return 'YJ'
         else:
             return 'ot'
+        #elif schname == '학교이름':
+        #   return '학교코드'
         
     def GetNum(self,num) -> str :
             if num <= 200:
