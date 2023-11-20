@@ -1,7 +1,7 @@
 from processData import GetPersonalData
 
 processData = GetPersonalData('visitorList.xlsx')
-#파일 이름은 변경하세요
+#파일 이름은 변경가능. 
 
 class RetrieveByNum():
     def __init__(self) -> None:

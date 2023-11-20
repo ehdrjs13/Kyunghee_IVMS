@@ -65,9 +65,7 @@ def getDataFromQR():
     school = datas[1]
     code = datas[2]
 
-    
 
-  
 
     print(f'이름: {name}\n\n\n학교: {school}\n\n\nGate:  {code[0]}\n\n\n\n{code}\n\n\n\n환영합니다!\n')
 
