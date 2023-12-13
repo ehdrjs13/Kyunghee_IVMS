@@ -3,6 +3,8 @@ from makeQR import GetQR
 from PIL import Image, ImageDraw, ImageFont
 import pandas
 
+#티켓 이미지를 제작.
+
 class makeTicket():
     def __init__(self) -> None:
         self.personalData = GetPersonalData('visitorList.xlsx')
@@ -13,10 +15,10 @@ class makeTicket():
             self.qr.makeQR(num_four)
 
         return
-    def makeImage(self, num):
-        self.bg = Image.open('template.jpg')
+    def makeImage(self, num) -> None:
+        self.bg = Image.open('comps/template.jpg')
         self.draw =  ImageDraw.Draw(self.bg)
-        self.font = ImageFont.truetype('AppleSDGothicNeoEB.ttf', size = 35)
+        self.font = ImageFont.truetype('comps/AppleSDGothicNeoEB.ttf', size = 35)
 
         self.NamePos = (540,315)
         self.SchoolPos = (540,445)
@@ -40,7 +42,7 @@ class makeTicket():
         
         self.bg.paste(self.qr, (450, 670), self.qr)
 
-        self.draw.text(self.CodePos, code, fill = (0,0,0),font= ImageFont.truetype('AppleSDGothicNeoB.ttf', size = 15))
+        self.draw.text(self.CodePos, code, fill = (0,0,0),font= ImageFont.truetype('comps/AppleSDGothicNeoB.ttf', size = 15))
         
 
 

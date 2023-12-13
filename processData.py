@@ -1,5 +1,6 @@
 import pandas as pd
 
+# xlsx파일 내의 데이터들을 정리하여 self.df에 dataframe의 형태로 저장. 
 
 class GetPersonalData():
     def __init__(self, filename) -> None :
@@ -51,7 +52,7 @@ class GetPersonalData():
                 return 'N'
 
     
-    def GetCode(self) :
+    def GetCode(self):
         for i in range(len(self.df)):
             
             num = i + 1

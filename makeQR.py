@@ -2,6 +2,7 @@ from processData import GetPersonalData
 
 import qrcode
 
+#makeTicket에 사용될 QR코드 생성.
 class GetQR():
     def __init__(self) -> None:
         self.personalData = GetPersonalData('visitorList.xlsx')
