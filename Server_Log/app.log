@@ -1,0 +1,118 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\ï¿½ï¿½ï¿½ï¿½\\kyunghee_ticketing\\server.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\ï¿½ï¿½ï¿½ï¿½\\kyunghee_ticketing\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\ï¿½ï¿½ï¿½ï¿½\\kyunghee_ticketing\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\ï¿½ï¿½ï¿½ï¿½\\kyunghee_ticketing\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:È«ï¿½æµ¿/ï¿½ó¹®°ï¿½/A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:24] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:È«ï¿½æµ¿/ï¿½ó¹®°ï¿½/A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:25] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:È«ï¿½æµ¿/ï¿½ó¹®°ï¿½/A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:25] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:È«ï¿½æµ¿/ï¿½ó¹®°ï¿½/A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:26] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:È«ï¿½æµ¿/ï¿½ó¹®°ï¿½/A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:26] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:È«ï¿½æµ¿/ï¿½ó¹®°ï¿½/A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:27] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:È«ï¿½æµ¿/ï¿½ó¹®°ï¿½/A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:27] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  ï¿½ï¿½ï¿½ï¿½:0
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:48:30] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\ï¿½ï¿½ï¿½ï¿½\\kyunghee_ticketing\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:server:2023-12-14  |  Recover : 0
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:49:24] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  Recover : 0
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:49:25] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  Entrial : A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:49:27] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  Entrial : A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:49:27] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\ï¿½ï¿½ï¿½ï¿½\\kyunghee_ticketing\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:server:2023-12-14  |  Entrial : A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:50:03] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  Entrial : A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:50:06] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  Entrial : A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:50:06] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  Recover : 1
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:50:07] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:server:2023-12-14  |  Recover : 1
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:50:08] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\ï¿½ï¿½ï¿½ï¿½\\kyunghee_ticketing\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:server:
+2023-12-14  |  Entrial : A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:54:10] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:
+2023-12-14  |  Entrial : A0001SM
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:54:22] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:
+2023-12-14  |  Recover : 1
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:54:30] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\°³¹ß\\kyunghee_ticketing\\server.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:server:
+2023-12-14  |  Recover : 1 ----------
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:55:10] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:server:
+2023-12-14  |  Entrial : A0001SM ----------
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:55:18] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\°³¹ß\\kyunghee_ticketing\\server.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:server:
+21:56:00.580119  |  Entrial : A0001SM ----------
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:56:00] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:
+21:56:00.580119  |  Entrial : A0001SM ----------
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:56:01] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:server:
+21:56:00.580119  |  Recover : 1 ----------
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:56:02] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:server:
+21:56:00.580119  |  Recover : 1 ----------
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:56:02] "GET /recovery/A0001DD HTTP/1.1" 200 -
+INFO:server:
+21:56:00.580119  |  Entrial : A0001SM ----------
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2023 21:56:38] "GET /mainEntrial/A0001DD HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\°³¹ß\\kyunghee_ticketing\\server.py', reloading
+INFO:server:
+21:58:41.185388  |  Recover : 1 ----------
+INFO:server:
+21:58:41.185388  |  Recover : 1 ----------
+INFO:server:
+21:58:41.185388  |  Entrial : A0001SM ----------
+INFO:server:
+21:58:41.185388  |  Entrial : A0001SM ----------
+INFO:server:
+21:58:41.185388  |  Entrial : A0001SM ----------
+INFO:server:
+21:58:41.185388  |  Recover : 1 ----------
