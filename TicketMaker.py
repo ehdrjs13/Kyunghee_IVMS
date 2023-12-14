@@ -1,4 +1,4 @@
-from makeTicket import makeTicket
+from Ticket.makeTicket import makeTicket
 
 ticket = makeTicket()
 

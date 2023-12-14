@@ -1,6 +1,6 @@
 import cv2
 from pyzbar.pyzbar import decode
-from retrieveID import approachData
+from approachData import approachData
 import pandas as pd
 # from tkinter import messagebox
 import winsound

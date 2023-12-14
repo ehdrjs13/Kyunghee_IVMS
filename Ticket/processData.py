@@ -65,7 +65,7 @@ class GetPersonalData():
             
             self.gate = self.GetNum(num)
 
-            self.personalData[num_four] = {'이름' : self.name[i],'학교' : self.school[i], '개인번호': num_four, '개인코드' : self.gate+num_four+sccode}
+            self.personalData[num_four] = {'이름' : self.name[i],'학교' : self.school[i], '개인번호': num_four, '개인코드' : self.gate+num_four+sccode, 'Check' : 0 }
             
         return pd.DataFrame(self.personalData)
 
