@@ -1,5 +1,6 @@
-# kyunghee_ticketing
-### 서울고등학교 경희제 외부인 통합 관리 체계(Integrated Visitor Management System, IVMS)
+
+# 서울고등학교 경희제 외부인 통합 관리 체계
+### (Integrated Visitor Management System, IVMS)
 
 
 ## Memo 
