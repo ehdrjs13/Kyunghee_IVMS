@@ -31,7 +31,7 @@ def scan_qr_code():
             
             qr_data = obj.data.decode("utf-8") #e.g.A0001SM
 
-            response = requests.get(f'http://127.0.0.1:5000/mainEntrial/{qr_data}')
+            response = requests.get(f'http://10.251.183.105:8000//mainEntrial/{qr_data}')
 
             #ip는 꼭 수정 하도록 합시다. 
 

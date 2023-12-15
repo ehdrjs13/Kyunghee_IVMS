@@ -1,9 +1,9 @@
-from approachData import approachData
+from approachData import ApproachData
 import sqlite3
 import pandas as pd
 
 
-a = approachData()
+a = ApproachData()
 
 df = a.sheet.transpose()
 df = df.reset_index(drop=True)

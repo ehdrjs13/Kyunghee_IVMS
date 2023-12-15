@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 logging.basicConfig(filename='Server_Log/app.log', level=logging.DEBUG)
 
-logging.getLogger('werkzeug').setLevel(logging.ERROR)
+# logging.getLogger('werkzeug').setLevel(logging.ERROR)
 
 
 @app.route('/mainEntrial/<id>', methods = ['GET'])
@@ -61,7 +61,7 @@ def recovery(id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)
 
 
 

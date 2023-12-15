@@ -5,7 +5,7 @@ from Ticket.processData import GetPersonalData
 processData = GetPersonalData('Ticket/visitorList.xlsx')
 #파일 이름은 변경가능. 
 
-class approachData():
+class ApproachData():
     def __init__(self) -> None:
         self.sheet = processData.GetCode()
 
