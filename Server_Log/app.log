@@ -188,3 +188,9 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 123-294-146
 INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\개발\\Kyunghee_IVMS\\getSQLdb.py', reloading
 INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146
+INFO:werkzeug: * Detected change in 'c:\\Users\\ehdrj\\Desktop\\개발\\Kyunghee_IVMS\\approachData.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-294-146

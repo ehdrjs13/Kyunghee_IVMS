@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 logging.basicConfig(filename='Server_Log/app.log', level=logging.DEBUG)
 
-# logging.getLogger('werkzeug').setLevel(logging.ERROR)
+logging.getLogger('werkzeug').setLevel(logging.ERROR)
 
 
 @app.route('/mainEntrial/<id>', methods = ['GET'])
