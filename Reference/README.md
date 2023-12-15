@@ -42,7 +42,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 ## BackEnd
 
 
-> 하단 데이터 전처리를 참조해서 visitorlist.db를 생성하세요.
+> 하단 데이터 전처리의 DB생성 매뉴얼을 참고해서 visitorlist.db를 생성하세요.
 
 ### 서버 가동
 
