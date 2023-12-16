@@ -1,0 +1,9 @@
+
+Flask==3.0.0
+image==1.5.33
+opencv-python==4.8.1.78
+pandas==2.1.1
+Pillow==10.1.0
+pyzbar==0.1.9
+qrcode==7.4.2
+requests==2.31.0
