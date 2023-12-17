@@ -16,25 +16,25 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 ## 데이터 전처리
 
 
-> 포맷에 맞게 신청자 명단을 Ticket 폴더 내에 visitorList.xlsx(대소문자 주의)로 저장해주세요.
+> 포맷에 맞게 신청자 명단을 ` Ticket ` 폴더 내에 ` visitorList.xlsx `(대소문자 주의)로 저장해주세요.
 
 
 
 ### 티켓 생성
 
 
-> TicketMaker.py
+` TicketMaker.py `
 
 
-실행하면 Ticket/saverImg 폴더에 티켓 이미지가 저장됩니다.(파일명은 개인 순번으로 저장)
+실행하면 ` Ticket/saverImg ` 폴더에 티켓 이미지가 저장됩니다.(파일명은 개인 순번으로 저장)
 
 
 ### DB 생성(중요)
 
 
-> getSQLdb.py
+` getSQLdb.py `
 
-실행하면 입장객 리스트가 visitorlist.db로 저장됩니다.
+실행하면 입장객 리스트가 ` visitorlist.db `로 저장됩니다.
 
 
 
@@ -44,7 +44,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 > 시작 전 API 서버의 ip주소를 확인하고, 이에 맞게 requests.get의 url을 수정해주세요.
 
 
-> init.py
+` init.py `
 
 
 해당 파일을 실행하게 되면 OpenCV 카메라 창이 열리며 QR스캔이 가능한 상태가 됩니다. 
@@ -59,7 +59,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 중복 입장 에러가 DB오류로 비정상적으로 발생한 경우, BackEnd 부분의 중복 처리 복구 매뉴얼을 참조하시면 됩니다.
 
 
-> init(legacy).py
+` init(legacy).py `
 
 
 레거시 버전을 사용하면 서버와의 네트워크 문제가 발생했을 때 내장 데이터베이스만을 이용해 데이터를 처리합니다.
@@ -75,7 +75,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 ### 서버 가동
 
 
-> server.py
+` server.py `
 
 
 실행하면 API 서버가 가동됩니다. 
@@ -86,7 +86,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 ### 입장 처리
 
 
-> /mainEntrial/<id>(개인 코드)
+` /mainEntrial/<id>(개인 코드) `
 
 
 해당 id에 해당하는 학생의 개인정보를 json 형식으로 반환하고, 해당 학생에 입장 처리를 하여 중복 입장을 방지합니다.
@@ -95,7 +95,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 ### 중복 처리 복구(중요)
 
 
-> /recovery/<id>(개인 코드)
+` /recovery/<id>(개인 코드) `
 
 
 비정상적인 입장 처리가 발생할 경우 해당 학생의 중복 입장 방지 인디케이터(Check)를 0으로 초기화합니다.
