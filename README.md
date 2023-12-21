@@ -109,6 +109,6 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 
 
 ## Memo (Issue)
-> 학교노트북에서 init.py 실행시 zbar 모듈서 libzbar-64.dll 누락 문제 해결 필요---c++2013ver 설치
+> 학교노트북에서 init.py 실행시 zbar 모듈서 libzbar-64.dll 누락 문제 해결 필요---/Reference의 Virtual C++ 2013 설치로 해결
 >
 > Linux 기반 pc에서 frontend 실행시 실행 도중 카메라 오류로 server에서 none 반환 오류--> nonetype 예외처리로 해결예정, frontend는 무조건 윈도우로 구성하기
