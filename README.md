@@ -39,7 +39,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 
 
 
-## FrontEnd
+## 프론트엔드
 
 
 > 시작 전 API 서버의 ip주소를 확인하고, 이에 맞게 ` requests.get() `의 url을 수정해주세요.
@@ -70,7 +70,7 @@ IVMS는 입장객의 티켓을 스캔하여 데이터를 출력하는 FrontEnd�
 
 
 
-## BackEnd
+## 백엔
 
 
 > 데이터 전처리의 DB생성 매뉴얼을 참고해서 ` visitorlist.db `를 생성하세요.
