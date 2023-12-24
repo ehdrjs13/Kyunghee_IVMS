@@ -23,7 +23,3 @@ mail.quit()
 
 
 
-# 
-
-# mail.sendTicket('ehdrjs070102@gmail.com','ookl mina mwgu zcjd', 'ehdrjs070102@kakao.com','0001')
-# mail.quit()
