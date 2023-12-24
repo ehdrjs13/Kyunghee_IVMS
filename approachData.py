@@ -2,7 +2,7 @@ from Ticket.processData import GetPersonalData
 
 #id을 받아서 dataframe 반환(사용자 정보)
 
-processData = GetPersonalData('Ticket/visitorList.xlsx')
+processData = GetPersonalData('visitorList.xlsx')
 #파일 이름은 변경가능. 
 
 class ApproachData():

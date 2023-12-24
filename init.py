@@ -31,7 +31,7 @@ def scan_qr_code():
             
             qr_data = obj.data.decode("utf-8") #e.g.A0001SM
 
-            response = requests.get(f'http://10.251.183.105:8000//mainEntrial/{qr_data}')
+            response = requests.get(f'http://10.251.183.80//mainEntrial/{qr_data}')
 
             #ip는 꼭 수정 하도록 합시다. 
 
@@ -47,7 +47,7 @@ def scan_qr_code():
 
             
 
-        cv2.imshow("QR Code Scanner", frame)
+        cv2.imshow("Kyunghee-IVMS", frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
@@ -92,7 +92,6 @@ while True:
         getDataFromQR()
     except:
         winsound.Beep(2000,2000)
-        getDataFromQR()
         print("\033[91mERROR:올바른 형태의 데이터가 아닙니다.\033[0m")
 
 

@@ -7,6 +7,8 @@ class GetPersonalData():
         self.df = pd.read_excel(filename).dropna()
         self.name = self.df['이름']
         self.school = self.df['학교']
+        self.email = self.df['이메일 주소']
+
 
         self.personalData = dict()
 
@@ -38,16 +40,14 @@ class GetPersonalData():
         #   return '학교코드'
         
     def GetNum(self,num) -> str :
-            if num <= 200:
+            if num <= 130:
                 return 'A'
-            elif num > 200 and num <= 400:
+            elif num > 130 and num <= 260:
                 return 'B'
-            elif num > 400 and num <= 600:
+            elif num > 260 and num <= 390:
                 return 'C'
-            elif num > 600 and num <= 800:
+            elif num > 390 and num <= 500:
                 return 'D'
-            elif num > 800 and num <= 1000:
-                return 'E'
             else:
                 return 'N'
 
@@ -65,7 +65,7 @@ class GetPersonalData():
             
             self.gate = self.GetNum(num)
 
-            self.personalData[num_four] = {'이름' : self.name[i],'학교' : self.school[i], '개인번호': num_four, '개인코드' : self.gate+num_four+sccode, 'Check' : 0 }
+            self.personalData[num_four] = {'이름' : self.name[i],'학교' : self.school[i], '개인번호': num_four, '개인코드' : self.gate+num_four+sccode, 'Check' : 0,'이메일 주소' : self.email[i] }
             
         return pd.DataFrame(self.personalData)
 

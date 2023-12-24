@@ -1,4 +1,4 @@
-from processData import GetPersonalData
+from Ticket.processData import GetPersonalData
 
 import qrcode
 
@@ -14,6 +14,6 @@ class GetQR():
         
         code = self.data[num][3]
         img = qrcode.make(code)
-        img.save(f"qrcodes/{num}.jpg")
+        img.save(f"Ticket/qrcodes/{num}.jpg")
 
 
