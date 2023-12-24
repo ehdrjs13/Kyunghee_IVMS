@@ -20,8 +20,8 @@ class SendMail():
      EMAIL_ADDR = admin_address
      EMAIL_PASSWORD = admin_pw
      self.smtp.login(EMAIL_ADDR, EMAIL_PASSWORD)
-     EMAIL_ADDR = 'ehdrjs070102@gmail.com'
-     EMAIL_PASSWORD = 'ookl mina mwgu zcjd'
+     EMAIL_ADDR = admin_address
+     EMAIL_PASSWORD = admin_pw
      self.smtp.login(EMAIL_ADDR, EMAIL_PASSWORD)
 
      message = MIMEMultipart()
@@ -44,7 +44,7 @@ class SendMail():
      image_attachment = MIMEText(image_file, 'base64', 'utf-8')
      image_attachment.add_header('Content-Disposition', 'attachment', filename=f'{num}.png')
      message.attach(image_attachment)
-     self.smtp.sendmail(EMAIL_ADDR, 'ehdrjs13@kakao.com', message.as_string())
+     self.smtp.sendmail(EMAIL_ADDR, address, message.as_string())
 
      print(f'done : {num}')
 
