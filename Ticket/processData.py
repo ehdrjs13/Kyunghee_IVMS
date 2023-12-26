@@ -34,6 +34,32 @@ class GetPersonalData():
             return 'SC'
         elif schname == '양재고':
             return 'YJ'
+        elif schname == '현대고':
+            return 'HD'
+
+#update: 12-26
+        elif schname == '경문고':
+            return 'KM'
+        elif schname == '언남고':
+            return 'UN'
+        elif schname == '중대부고':
+            return 'JD'
+        elif schname == '은광여고':
+            return 'EK'
+        elif schname == '한림예고':
+            return 'HL'
+        elif schname == '경기여고':
+            return 'KG'
+        elif schname == '진선여고':
+            return 'JS'
+        elif schname == '숙명여고':
+            return 'MG'
+        elif schname == '청담고':
+            return 'CD'
+        elif schname == '계원예고':
+            return 'GW'
+        elif schname == '보성여고':
+            return 'BS'
         else:
             return 'ot'
         #elif schname == '학교이름':
