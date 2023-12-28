@@ -31,9 +31,10 @@ def scan_qr_code():
             
             qr_data = obj.data.decode("utf-8") #e.g.A0001SM
 
-            response = requests.get(f'http://10.251.183.80//mainEntrial/{qr_data}')
+            response = requests.get(f'http://192.168.45.49:8000//mainEntrial/{qr_data}')
 
             #ip는 꼭 수정 하도록 합시다. 
+            #포트번호를 명시하도록 합시다
 
             data = response.json()
 

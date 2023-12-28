@@ -11,12 +11,17 @@ mail = SendMail()
 # df = a.sheet.transpose()
 
 for i in range(len(a['이메일 주소'])):
-    num = str(a['개인번호'][i])
-    mailaddress = a['이메일 주소'][i]
-    name = a['이름'][i]
-    school = a['학교'][i]
-    print(name,school,num,mailaddress)
-    mail.sendTicket(admin_address, admin_pw, mailaddress,num)
+    try:
+        num = str(a['개인번호'][i])
+        mailaddress = a['이메일 주소'][i]
+        name = a['이름'][i]
+        school = a['학교'][i]
+        print(name,school,num,mailaddress)
+        mail.sendTicket(admin_address, admin_pw, mailaddress,num)
+    except:
+        pass
+
+
 
 mail.quit()
 
