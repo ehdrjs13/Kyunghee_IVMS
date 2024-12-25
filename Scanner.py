@@ -30,11 +30,7 @@ def scan_qr_code():
             
             qr_data = obj.data.decode("utf-8") #e.g.A0001SM
 
-            response = requests.get(f'http://10.251.180.243:8000//mainEntrial/{qr_data}')
-
-            #ip는 꼭 수정 하도록 합시다. 
-            #config 파일로 빼기
-            #포트번호를 명시하도록 합시다
+            response = requests.get(f'http://128.0.0.1:8000//mainEntrial/{qr_data}')
 
             data = response.json()
 
@@ -67,22 +63,24 @@ def getDataFromQR():
 
     check = datas[5]
 
+    winsound.Beep(2000,100)
+    winsound.Beep(1500,180)
+    print(f'이름: {name}\n\n\n학교: {school}\n\n\n\n{code}\n\n\n\n환영합니다!\n')
+    # if check == 0:
+    #     winsound.Beep(2000,100)
+    #     winsound.Beep(1500,180)
+    #     print(f'이름: {name}\n\n\n학교: {school}\n\n\n\n{code}\n\n\n\n환영합니다!\n')
+    # elif check == 1:
+    #     winsound.Beep(2000,2000)
+    #     print(("\033[91mERROR:이미 사용된 입장권입니다. \033[0m"))
 
-    if check == 0:
-        winsound.Beep(2000,100)
-        winsound.Beep(1500,180)
-        print(f'이름: {name}\n\n\n학교: {school}\n\n\nGate:  {code[0]}\n\n\n\n{code}\n\n\n\n환영합니다!\n')
-    elif check == 1:
-        winsound.Beep(2000,2000)
-        print(("\033[91mERROR:이미 사용된 입장권입니다.\033[0m"))
-
-# while True:
-#     getDataFromQR()
 
 while True:
     
     try:
         getDataFromQR()
+
+    #에러 예외처리 구체화
     except:
         winsound.Beep(2000,2000)
         print("\033[91mERROR:올바른 형태의 데이터가 아닙니다.\033[0m")
