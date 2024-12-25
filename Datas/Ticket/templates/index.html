@@ -7,7 +7,7 @@
 </head>
 <body>
     <div style = 'display: flex; align-items: center; flex-direction: column;'>
-        <h1 style="text-align: center;">2023 서울고<br>경희제 티켓 조회</h1>
+        <h1 style="text-align: center;">2024 서울고<br>경희제 티켓 조회</h1>
         <b>개인 발급 코드를 입력해주세요.</b>
        <input id = 'code' type="text">
        <button onclick = redirect()>확인</button>
@@ -17,8 +17,7 @@
     <script>
         function redirect(){
             var code = document.getElementById('code').value;
-            var url = 'http://192.168.45.49:9900/tickets/'+code
-            // ip 제대로 쓸떈 도메인 받아서 교체
+            var url = 'http://url.com:8000/tickets/'+code
             window.location.href = url;
             console.log(code);
 
